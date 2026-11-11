@@ -2,14 +2,14 @@
 
 This group project compares Multinomial Naive Bayes, logistic regression, and a linear support vector machine for classifying tweets as negative, neutral, or positive.
 
-[Open the Python notebook](TweetEval_GroupABC_revised%20%282%29.ipynb)
+[Open the Python notebook](TweetEval_Sentiment_Analysis_NBC.ipynb)
 
 ## Run in Google Colab
 
 1. Open the notebook in Google Colab with a CPU runtime. Run the first code cell to install the pinned packages. Restart the runtime if Colab prompts you.
-2. Run **Group A** with `USE_GOOGLE_DRIVE = True` and authorize Google Drive when prompted. This saves the prepared data and fitted vectorisers in `MyDrive/CSCI323/TweetEval_Prepared/`.
-3. Run **Group B** from B1 through B24. This trains the candidate models, selects one configuration per method, and saves `TweetEval_GroupB_ThreeMethods_Handoff.zip` in `MyDrive/CSCI323/`.
-4. Run **Group C** from **Setup and Locate the Handoff Files** through **Final Integrity Check and Results Package**. This loads the three selected models, evaluates them on the test split, and saves the tables, plots, and error analyses in `MyDrive/CSCI323/TweetEval_GroupC_Evaluation_Results.zip`.
+2. Run **Part 1 (Steps 1–15)** with `USE_GOOGLE_DRIVE = True` in Step 2 and authorize Google Drive when prompted. This saves the prepared data and fitted vectorisers in `MyDrive/CSCI323/TweetEval_Prepared/`.
+3. Run **Part 2 (Steps 16–39)** to train the candidate models, select one configuration per method on validation, and save `TweetEval_GroupB_ThreeMethods_Handoff.zip` in `MyDrive/CSCI323/`.
+4. Run **Part 3 (Steps 40–52)** in the same session to evaluate the three selected models on the held-out test split. The final ZIP `MyDrive/CSCI323/TweetEval_GroupC_Evaluation_Results.zip` contains the tables, plots, and error analyses.
 
 ## Dataset and evaluation
 
